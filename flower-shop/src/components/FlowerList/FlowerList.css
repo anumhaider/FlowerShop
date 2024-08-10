@@ -1,0 +1,23 @@
+.flower-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 20px;
+}
+
+.flower-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 8px;
+  width: calc(20% - 40px); /* Adjust width based on the desired number of items per row */
+  box-sizing: border-box;
+}
+
+.flower-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
