@@ -1,4 +1,5 @@
 import React from 'react';
+import './FlowerCard.css';
 
 const FlowerCard = ({ flower, addToBasket }) => (
   <div className="flower-card">

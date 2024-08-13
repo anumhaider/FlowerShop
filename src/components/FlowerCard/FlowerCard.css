@@ -1,14 +1,42 @@
-.flower-item {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    text-align: center;
-    margin: 1rem;
-    border-radius: 8px;
-  }
-  
-  .flower-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
+.flower-card {
+  background-color: #1c1f4a; 
+  border: 1px solid #8a94e7; 
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  color: #ffffff; 
+  transition: transform 0.2s;
+}
+
+.flower-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.flower-card h3 {
+  margin: 8px 0;
+}
+
+.flower-card p {
+  margin: 4px 0;
+}
+
+.flower-card button {
+  background-color: #8a94e7; 
+  color: #1c1f4a; 
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.flower-card button:hover {
+  background-color: #a1abe7; 
+}
+
+.flower-card:hover {
+  transform: scale(1.05);
+}

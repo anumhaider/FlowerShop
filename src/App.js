@@ -6,6 +6,7 @@ import NotFound from './pages/NotFound';
 import NavBar from './components/NavBar/NavBar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './App.css'
 
 const App = () => {
   const [basket, setBasket] = useState([]);

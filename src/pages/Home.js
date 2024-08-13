@@ -2,6 +2,7 @@ import React from 'react';
 import FlowerList from '../components/FlowerList/FlowerList';
 import { toast } from 'react-toastify';
 import { images } from '../constants/images';
+import './Home.css';
 
 const flowers = [
   { id: 1, name: 'Rose', price: 2.5, image: images.rose },
