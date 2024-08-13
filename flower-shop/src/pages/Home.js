@@ -1,11 +1,11 @@
 import React from 'react';
-import FlowerList from '../components/FlowerList/FlowerList';
+import ListOfFlowers from '../components/FlowerList/ListOfFlowers';
 
-const Home = () => {
+const Home = ({ addToBasket }) => {
   return (
     <div>
       <h2>Welcome to the Flower Shop!</h2>
-      <FlowerList />
+      <ListOfFlowers addToBasket={addToBasket} />
     </div>
   );
 };

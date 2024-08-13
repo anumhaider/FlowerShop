@@ -1,9 +1,9 @@
 import React from 'react';
 import FlowerItem from '../FlowerItem/FlowerItem';
-import './FlowerList.css';
+import './ListOfFlowers.css';
 
 
-const FlowerList = ({ addToBasket }) => {
+const ListOfFlowers = ({ addToBasket }) => {
   const flowers = [
     { name: 'Rose', price: '$5.00', image: 'https://via.placeholder.com/150/FF0000/FFFFFF?text=Rose' },
     { name: 'Tulip', price: '$3.00', image: 'https://via.placeholder.com/150/FF7F50/FFFFFF?text=Tulip' },
@@ -26,4 +26,4 @@ const FlowerList = ({ addToBasket }) => {
   );
 };
 
-export default FlowerList;
+export default ListOfFlowers;
