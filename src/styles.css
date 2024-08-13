@@ -1,0 +1,31 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .flower-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .flower-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .flower-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .basket-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
