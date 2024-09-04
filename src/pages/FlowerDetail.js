@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import flowers from '../constants/flowers';
-import FlowerDetailCard from '../components/FlowerDetailCard/FlowerDetailCard'; // Import the new component
+import FlowerDetailCard from '../components/FlowerDetailCard/FlowerDetailCard';
 
 const FlowerDetailPage = ({ addToBasket }) => {
   const { id } = useParams();
