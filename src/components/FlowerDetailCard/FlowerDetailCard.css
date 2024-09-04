@@ -1,0 +1,56 @@
+.flower-detail-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .flower-detail-card__image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .flower-detail-card__info {
+    margin-left: 30px;
+    max-width: 400px;
+  }
+  
+  .flower-detail-card__name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .flower-detail-card__description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .flower-detail-card__price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .flower-detail-card__button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .flower-detail-card__button:hover {
+    background-color: #218838;
+  }
+  
