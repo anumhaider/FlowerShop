@@ -3,12 +3,3 @@ h1 {
     padding: 1.2em 0;
     background-color: #121530ee;
 }
-
-.flower-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: center;
-    padding: 16px;
-    background-color: #14173a; 
-  }

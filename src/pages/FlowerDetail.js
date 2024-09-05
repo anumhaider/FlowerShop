@@ -5,7 +5,6 @@ import FlowerList from '../flowers.json';
 
 const FlowerDetailPage = ({ addToBasket }) => {
   const { id } = useParams();
-  console.log(id)
   const navigate = useNavigate();
   
   const flower = FlowerList.flowers.find((flower) => flower.id === parseInt(id));
