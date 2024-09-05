@@ -5,84 +5,84 @@
             "id": 1, 
             "name": "Rose",
             "price": 2.5,
-            "image": "../assets/rose.jpeg",
+            "image": "./assets/rose.jpeg",
             "stock": 100
         },
         {
             "id": 2, 
             "name": "Tulip",
             "price": 1.5,
-            "image": "../assets/tulip.jpeg",
+            "image": "./assets/tulip.jpeg",
             "stock": 100
         },
         {
             "id": 3, 
             "name": "Lily",
             "price": 1.5,
-            "image": "../assets/lily.jpeg",
+            "image": "./assets/lily.jpeg",
             "stock": 100
         },
         {
             "id": 4, 
             "name": "Sunflower",
             "price": 1.5,
-            "image": "../assets/sunflower.jpeg",
+            "image": "./assets/sunflower.jpeg",
             "stock": 100
         },
         {
             "id": 5, 
             "name": "Daffodil",
             "price": 1.5,
-            "image": "../assets/daffodil.jpeg",
+            "image": "./assets/daffodil.jpeg",
             "stock": 100
         },
         {
             "id": 6, 
             "name": "Orchid",
             "price": 1.5,
-            "image": "../assets/orchid.jpeg",
+            "image": "./assets/orchid.jpeg",
             "stock": 100
         },
         {
             "id": 7, 
             "name": "Carnation",
             "price": 1.5,
-            "image": "../assets/carnation.jpeg",
+            "image": "./assets/carnation.jpeg",
             "stock": 100
         },
         {
             "id": 8, 
             "name": "Daisy",
             "price": 1.5,
-            "image": "../assets/daisy.jpeg",
+            "image": "./assets/daisy.jpeg",
             "stock": 100
         },
         {
             "id": 9, 
             "name": "Lavender",
             "price": 1.5,
-            "image": "../assets/lavender.jpeg",
+            "image": "./assets/lavender.jpeg",
             "stock": 100
         },
         {
             "id": 10, 
             "name": "Peony",
             "price": 1.5,
-            "image": "../assets/peony.jpeg",
+            "image": "./assets/peony.jpeg",
             "stock": 100
         },
         {
             "id": 11, 
             "name": "Iris",
             "price": 1.5,
-            "image": "../assets/iris.jpeg",
+            "image": "./assets/iris.jpeg",
             "stock": 100
         },
         {
             "id": 12, 
             "name": "Marigold",
             "price": 1.5,
-            "image": "../assets/marigold.jpeg",
+            "image": "./assets/marigold.jpeg",
             "stock": 100
         }
     ]

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Basket.css';
+import { images } from '../../constants/images';
 
 const Basket = ({ basket, updateQuantity, removeFromBasket }) => {
   const totalAmount = basket.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -13,7 +14,7 @@ const Basket = ({ basket, updateQuantity, removeFromBasket }) => {
         <div className="basket-items">
           {basket.map((item) => (
             <div key={item.id} className="basket-item">
-              <img src={item.image} alt={item.name} />
+              <img src={images[item.name.toLowerCase()]} alt={item.name} />
               <div className="basket-item-details">
                 <h3>{item.name}</h3>
                 <p>${item.price} x {item.quantity}</p>

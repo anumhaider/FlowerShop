@@ -2,9 +2,9 @@ import React from 'react';
 import FlowerCard from '../FlowerCard/FlowerCard';
 import './FlowerList.css';
 
-const FlowerList = ({ flowers, addToBasket }) => (
+const FlowerList = ({ flower, addToBasket }) => (
   <div className="flower-list">
-    {flowers.map(flower => (
+    {flower.map(flower => (
       <FlowerCard key={flower.id} flower={flower} addToBasket={addToBasket} />
     ))}
   </div>

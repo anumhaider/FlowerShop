@@ -12,16 +12,16 @@ import iris from '../assets/iris.jpeg';
 import marigold from '../assets/marigold.jpeg';
 
 export const images = {
-  rose,
-  tulip,
-  lily,
-  sunflower,
-  daffodil,
-  orchid,
-  carnation,
-  daisy,
-  lavender,
-  peony,
-  iris,
-  marigold,
+    rose,
+    tulip,
+    lily,
+    sunflower,
+    daffodil,
+    orchid,
+    carnation,
+    daisy,
+    lavender,
+    peony,
+    iris,
+    marigold,
 };

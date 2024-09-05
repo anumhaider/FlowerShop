@@ -8,7 +8,7 @@ import NavBar from './components/NavBar/NavBar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import useBasket from './hooks/useBasket'; // Import the custom hook
+import useBasket from './hooks/useBasket';
 
 const App = () => {
   const { basket, addToBasket, updateQuantity, removeFromBasket } = useBasket();

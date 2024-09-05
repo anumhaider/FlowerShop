@@ -1,11 +1,12 @@
 import React from 'react';
 import './FlowerDetailCard.css';
+import { images } from '../../constants/images';
 
 const FlowerDetailCard = ({ flower, addToBasket }) => {
   return (
     <div className="flower-detail-card">
       <div className="flower-detail-card__image">
-        <img src={flower.image} alt={flower.name} />
+        <img src={images[flower.name.toLowerCase()]} alt={flower.name} />
       </div>
       <div className="flower-detail-card__info">
         <h2 className="flower-detail-card__name">{flower.name}</h2>
